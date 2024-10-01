@@ -1,0 +1,30 @@
+vsim work.ifq_tb -voptargs=+acc
+# vsim work.ifq_tb -voptargs="+acc" 
+# Start time: 11:44:40 on Sep 20,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.ifq_tb(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Compile of circular_buff.sv was successful.
+# Compile of circular_buffer_tb.sv was successful.
+# Compile of ifq.sv was successful.
+# Compile of adder_param.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of ifq_tb.sv was successful.
+# 7 compiles, 0 failed with no errors.
+do C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/questa_sim/j_sim.do
+run
+run
+run
+run
+run
+run
+run
+# End time: 13:01:05 on Sep 21,2024, Elapsed time: 25:16:25
+# Errors: 0, Warnings: 2
