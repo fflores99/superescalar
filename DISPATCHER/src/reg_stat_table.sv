@@ -58,14 +58,15 @@ always_ff @( posedge clk, posedge rst ) begin : sequential
         integer i;
         for(i = 0; i < 32; i+=1)
             REGISTER_STATUS[i] <= 7'b0000000; /*Reset register to 0*/
-
+    end else begin
         /*Writting and clearing same token adds priority to writting*/
         if(tag_write_en) begin
             REGISTER_STATUS[rd] <= {1'b1,rd_tag}; /*Writes valid bit + tag*/
         end
         /*Clears tag if cdb_valid and tag_write_en is different to 1 and rd is different to rd*/
-        if((cdb_valid == 1'b1) && (tag_write_en != cdb_valid) && (rd != looked_up_rd)) begin
-            REGISTER_STATUS[looked_up_rd] <= 7'b0000000; /*Clears valid bit + tag*/
+        if(cdb_valid == 1'b1) begin
+            if(!((tag_write_en) && (rd == looked_up_rd)))
+                REGISTER_STATUS[looked_up_rd] <= 7'b0000000; /*Clears valid bit + tag*/     
         end      
     end
 end

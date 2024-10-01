@@ -1,14 +1,11 @@
-C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/tag_fifo.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/tag_fifo.sv
+C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/tag_fifo.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/tag_fifo.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module tag_fifo
-** Error: (vlog-13069) C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/tag_fifo.sv(41): near "=>": syntax error, unexpected =>.
 
-} {4.0 5.0} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_unit.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_unit.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module dispatch_unit
-** Error: (vlog-13069) C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_unit.sv(75): near "carry": syntax error, unexpected IDENTIFIER, expecting .* or '.'.
+Top level modules:
+	tag_fifo
 
-} {4.0 5.0} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module reg_param
 
@@ -21,6 +18,13 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	reg_param_sync_async
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/dispatch_unit_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/dispatch_unit_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module dispatch_unit_tb
+
+Top level modules:
+	dispatch_unit_tb
 
 } {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/adder_param.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/adder_param.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -50,6 +54,13 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	imm_gen
 
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/duspatch_unit_bmf.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/duspatch_unit_bmf.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module dispatch_unit_bmf
+
+Top level modules:
+	dispatch_unit_bmf
+
 } {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/one_hot_param.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/one_hot_param.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module one_hot_param
@@ -57,12 +68,14 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	one_hot_param
 
-} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv {0 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling module reg_stat_table
-** Error: (vlog-13069) C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv(8): near ";": syntax error, unexpected ';', expecting ')'.
 
-} {4.0 5.0} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/cdb_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/cdb_if.sv
+Top level modules:
+	reg_stat_table
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/cdb_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/cdb_if.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 -- Compiling interface cdb_bus
 
@@ -82,5 +95,12 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	mux_param
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_staller.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_staller.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module dispatch_staller
+
+Top level modules:
+	dispatch_staller
 
 } {} {}}

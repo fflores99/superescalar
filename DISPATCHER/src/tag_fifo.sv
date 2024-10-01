@@ -5,7 +5,7 @@ module tag_fifo #(parameter SIZE = 64) (
     input [5:0] tag_in,
     input tag_push,
     /*Register Status Table IF*/
-    output reg [5:0] tag_out,
+    output [5:0] tag_out,
     input tag_pull,
     /*FIFO indicators*/
     output reg fifo_full,
@@ -15,6 +15,7 @@ module tag_fifo #(parameter SIZE = 64) (
 reg [6:0] write_ptr, read_ptr;
 
 reg [5:0] fifo_data [SIZE];
+assign tag_out = fifo_data[read_ptr];
 
 always_ff @( posedge clk, posedge rst ) begin : fifo
     if(rst) begin
@@ -28,7 +29,6 @@ always_ff @( posedge clk, posedge rst ) begin : fifo
         end
     end else begin
         if((tag_pull == 1'b1) && (fifo_empty == 1'b0)) begin
-            tag_out <= fifo_data[read_ptr];
             read_ptr <= (read_ptr < (SIZE - 1)) ? read_ptr + 1 : 7'b0000000;
             if((read_ptr + 1'b1) == write_ptr)
                 fifo_empty <= 1'b1;

@@ -7,18 +7,31 @@ module dispatch_staller (
     input branch_solved,
     input jalr_solved,
     input ifq_empty,
-    output nstall
+    output reg nstall
 );
 
-typedef enum logic [1:0] {NORMAL_OP, STALLINNG_FOR_BRANCH, STALLING_FOR_JALR, STALLING_FOR_IFQ_NOT_EMPTY} fsm_state;
+typedef enum logic [1:0] {NORMAL_OP, STALLINNG_FOR_BRANCH, STALLING_FOR_JALR/*, STALLING_FOR_IFQ_NOT_EMPTY*/} fsm_state;
 
 fsm_state state;
 
-assign nstall = (state == NORMAL_OP) ? 1'b1 : 1'b0;
+always_comb begin : stall_logic
+    if(ifq_empty)
+        nstall = 1'b0;
+    else if (state == NORMAL_OP)
+        nstall = 1'b1;
+    else
+        nstall = 1'b0;
+end
+
 
 always_ff @( posedge clk, posedge rst ) begin : sequential
     if(rst)  begin
-        state <= NORMAL_OP;
+        /*
+        if(ifq_empty)
+            state <= STALLING_FOR_IFQ_NOT_EMPTY;
+        else
+        */
+            state <= NORMAL_OP;
     end else begin
         case (state)
             NORMAL_OP: 
@@ -26,8 +39,10 @@ always_ff @( posedge clk, posedge rst ) begin : sequential
                     state <= STALLINNG_FOR_BRANCH;
                 else if(jalr)
                     state <= STALLING_FOR_JALR;
+/*                
                 else if(ifq_empty)
                     state <= STALLING_FOR_IFQ_NOT_EMPTY;
+*/
                 else
                     state <= NORMAL_OP;
             STALLINNG_FOR_BRANCH:
@@ -40,11 +55,13 @@ always_ff @( posedge clk, posedge rst ) begin : sequential
                     state <= NORMAL_OP;
                 else
                     state <= STALLING_FOR_JALR;
+/*
             STALLING_FOR_IFQ_NOT_EMPTY:
                 if(ifq_empty)
                     state <= STALLING_FOR_IFQ_NOT_EMPTY;
                 else
                     state <= NORMAL_OP;
+*/
             default: state <= NORMAL_OP;
         endcase
     end   

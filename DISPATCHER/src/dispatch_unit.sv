@@ -57,6 +57,9 @@ wire rf_we;
 wire [31:0] rf_rs1_data, rf_rs2_data;
 wire fw_cdb_rs1, fwd_cdb_rs2;
 wire rs1_tag_eq_cdb, rs2_tag_eq_cdb;
+/*Zero register bypass*/
+wire rd_is_not_zero;
+assign rd_is_not_zero = (rd == 5'd0) ? 1'b0: 1'b1;
 
 /*Immediate generator*/
 imm_gen IMM_GEN (
@@ -123,8 +126,8 @@ dispatch_staller STALLER (
 
 /**********Register Renaming**********/
 /*FIFO*/
-assign rd_token[6] = dec_reg_write & nstall;
-tag_fifo #(.SIZE(64)) (
+assign rd_token[6] = dec_reg_write & nstall & rd_is_not_zero;
+tag_fifo #(.SIZE(64)) FIFO (
     .clk(clk),
     .rst(rst),
     /*CDB IF*/
@@ -132,14 +135,14 @@ tag_fifo #(.SIZE(64)) (
     .tag_push(cdb.valid),
     /*Register Status Table IF*/
     .tag_out(rd_token[5:0]),
-    .tag_pull(dec_reg_write & nstall),
+    .tag_pull(dec_reg_write & nstall & rd_is_not_zero),
     /*FIFO indicators*/
     .fifo_full(),
     .fifo_empty()
 );
 /*RST*/
 
-reg_stat_table (
+reg_stat_table REG_ST_TBL(
     .clk(clk),
     .rst(rst),
     /*Tag clearing*/
@@ -157,7 +160,7 @@ reg_stat_table (
     /*Tag writing*/
     .rd(rd),
     .rd_tag(rd_token[5:0]),
-    .tag_write_en(dec_reg_write & nstall)
+    .tag_write_en(dec_reg_write & nstall & rd_is_not_zero)
 );
 
 /*Register File*/
@@ -177,7 +180,7 @@ register_file REG_FILE (
 /*sources are going to use cdb data if tags matches and cdb is writting Register File*/
 assign rs1_tag_eq_cdb = (rs1_tag == cdb.tag) ? 1'b1 : 1'b0;
 assign rs2_tag_eq_cdb = (rs2_tag == cdb.tag) ? 1'b1 : 1'b0;
-assign fw_cdb_rs1 = rs1_tag_eq_cdb & rs2_tag_valid & cdb.valid;
+assign fw_cdb_rs1 = rs1_tag_eq_cdb & rs1_tag_valid & cdb.valid;
 assign fw_cdb_rs2 = rs2_tag_eq_cdb & rs2_tag_valid & cdb.valid;
 /*Data is being forwarded from CDB is fw bit is on*/
 assign queue_bus.rs1_data = (fw_cdb_rs1) ? cdb.data : rf_rs1_data;

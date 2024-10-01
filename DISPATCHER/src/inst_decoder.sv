@@ -1,8 +1,8 @@
 module inst_decoder (
 
 input [6:0] opcode,
-input [14:12] funct3,
-input [11:7] funct7,
+input [2:0] funct3,
+input [6:0] funct7,
 
 output reg jmp,
 output reg reg_write,
