@@ -1,0 +1,40 @@
+`timescale 1ps/1ps
+
+module circular_buffer_tb();
+
+logic clk, rst, flush, push, pull;
+logic [127:0] DATA_READ, DATA_WRITE;
+logic [1:0] WR_PTR, RD_PTR;
+
+circular_buff #(
+.LENGTH(128),
+.SIZE(4)
+)
+UUT 
+(
+    .clk(clk),
+    .rst(rst),
+    .flush(flush),
+    .push(push),
+    .pull(pull),
+    .data_write(DATA_WRITE),
+    .data_read(DATA_READ),
+    .write_ptr(W_PTR),
+    .read_ptr(R_PTR)
+);
+
+initial begin
+	clk = 1'b0;
+end
+
+always begin
+    #5 clk = ~clk;
+    fill_buff();
+end
+
+task fill_buff();
+    @(posedge clk) DATA_WRITE = $random%65536;
+
+endtask
+
+endmodule

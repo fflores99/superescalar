@@ -1,4 +1,4 @@
-# superescalar
+# Superescalar
 This repository contains the developement of a superescalar microprocessor based on a RISC architecture. The architecture was developed in diferent stages.
 
 # Stages
