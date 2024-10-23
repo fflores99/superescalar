@@ -12,60 +12,14 @@
 # Compile of reg_stat_table.sv was successful.
 # Compile of register_file.sv was successful.
 # Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv failed with 4 errors.
+# Compile of dispatch_unit_tb.sv was successful.
 # Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 1 failed with 4 errors.
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv failed with 4 errors.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 1 failed with 4 errors.
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv failed with 3 errors.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 1 failed with 3 errors.
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv failed with 2 errors.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 1 failed with 2 errors.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv failed with 1 errors.
+# Compile of frontend_cluster.sv failed with 1 errors.
+# Compile of frontend_tb.sv failed with 1 errors.
+# 21 compiles, 3 failed with 3 errors.
 # Compile of adder_param.sv was successful.
 # Compile of cdb_if.sv was successful.
 # Compile of mux_param.sv was successful.
@@ -82,31 +36,90 @@
 # Compile of tag_fifo.sv was successful.
 # Compile of dispatch_unit_tb.sv was successful.
 # Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-vsim work.dispatch_unit_tb -voptargs=+acc
-# vsim work.dispatch_unit_tb -voptargs="+acc" 
-# Start time: 13:13:00 on Oct 01,2024
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv failed with 41 errors.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# 21 compiles, 1 failed with 41 errors.
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv failed with 5 errors.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# 21 compiles, 1 failed with 5 errors.
+# Compile of frontend_bfm.sv failed with 7 errors.
+# Compile of frontend_bfm.sv failed with 2 errors.
+# Compile of frontend_bfm.sv failed with 36 errors.
+# Compile of frontend_bfm.sv failed with 36 errors.
+# Compile of frontend_bfm.sv failed with 36 errors.
+# Compile of frontend_bfm.sv failed with 36 errors.
+# Compile of frontend_bfm.sv failed with 36 errors.
+# Compile of frontend_bfm.sv failed with 36 errors.
+# Compile of frontend_bfm.sv failed with 72 errors.
+# Compile of frontend_bfm.sv failed with 72 errors.
+# Compile of frontend_bfm.sv failed with 72 errors.
+# Compile of frontend_bfm.sv failed with 72 errors.
+# Compile of frontend_bfm.sv failed with 72 errors.
+# Compile of frontend_bfm.sv failed with 36 errors.
+# Compile of frontend_bfm.sv failed with 36 errors.
+# Compile of frontend_bfm.sv failed with 2 errors.
+# Compile of frontend_bfm.sv failed with 1 errors.
+# Compile of frontend_bfm.sv failed with 1 errors.
+# Compile of frontend_bfm.sv failed with 5 errors.
+# Compile of frontend_bfm.sv failed with 3 errors.
+# Compile of frontend_bfm.sv failed with 1 errors.
+# Compile of frontend_bfm.sv was successful.
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# 21 compiles, 0 failed with no errors.
+vsim work.frontend_tb -voptargs=+acc
+# vsim work.frontend_tb -voptargs="+acc" 
+# Start time: 21:48:13 on Oct 12,2024
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Error (suppressible): C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_unit.sv(127): (vopt-13259) Missing instance name in instantiation of module/program/interface 'tag_fifo'.
-# ** Error (suppressible): C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_unit.sv(161): (vopt-13259) Missing instance name in instantiation of module/program/interface 'reg_stat_table'.
+# ** Error: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/frontend_cluster.sv(36): Module 'ifq' is not defined.
+#  For instance 'IFQ' at path 'frontend_tb.FRONT_END'
 # Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=1.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
 # Error loading design
-# End time: 13:13:02 on Oct 01,2024, Elapsed time: 0:00:02
-# Errors: 2, Warnings: 8
-vsim work.dispatch_unit_tb -voptargs=+acc
-# vsim work.dispatch_unit_tb -voptargs="+acc" 
-# Start time: 13:13:47 on Oct 01,2024
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Error (suppressible): C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_unit.sv(127): (vopt-13259) Missing instance name in instantiation of module/program/interface 'tag_fifo'.
-# ** Error (suppressible): C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_unit.sv(161): (vopt-13259) Missing instance name in instantiation of module/program/interface 'reg_stat_table'.
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=1.
-# Error loading design
-# End time: 13:13:48 on Oct 01,2024, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 2
+# End time: 21:48:15 on Oct 12,2024, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 29
 # Compile of adder_param.sv was successful.
 # Compile of cdb_if.sv was successful.
 # Compile of mux_param.sv was successful.
@@ -123,35 +136,91 @@ vsim work.dispatch_unit_tb -voptargs=+acc
 # Compile of tag_fifo.sv was successful.
 # Compile of dispatch_unit_tb.sv was successful.
 # Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-vsim work.dispatch_unit_tb -voptargs=+acc
-# vsim work.dispatch_unit_tb -voptargs="+acc" 
-# Start time: 13:13:56 on Oct 01,2024
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+vsim work.frontend_tb -voptargs=+acc
+# vsim work.frontend_tb -voptargs="+acc" 
+# Start time: 21:48:53 on Oct 12,2024
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vopt-143) Recognized 1 FSM in module "dispatch_staller(fast)".
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (7) for port 'funct7'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/inst_decoder.sv(5).
-#    Time: 0 ps  Iteration: 0  Instance: /dispatch_unit_tb/UUT/DECODER File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_unit.sv Line: 94
-# ** Warning: (vsim-3356) Index into 'rom' is out of bounds.
-#    Time: 0 ps  Iteration: 0  Instance: /dispatch_unit_tb File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/dispatch_unit_tb.sv Line: 22
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+add wave -position insertpoint sim:/frontend_tb/PMEM/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: frfdm  Hostname: FAFILAPTOP  ProcessID: 29912
+#           Attempting to use alternate WLF file "./wlft2ammke".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2ammke
+add wave -position insertpoint  \
+sim:/frontend_tb/pmem_add
+add wave -position insertpoint  \
+sim:/frontend_tb/pmem_data
+add wave -position insertpoint  \
+sim:/frontend_tb/clk
+add wave -position insertpoint  \
+sim:/frontend_tb/rst
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/disp_pc
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/IFQ/BUFF/BUFF_DAT
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/DISP/REG_ST_TBL/REGISTER_STATUS
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/DISP/REG_FILE/DATA_IN
+add wave -position insertpoint sim:/frontend_tb/FRONT_END/DISP/cdb/*
+add wave -position insertpoint sim:/frontend_tb/FRONT_END/DISP/queue_bus/*
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/DISP/int_queue_en \
+sim:/frontend_tb/FRONT_END/DISP/mult_queue_en \
+sim:/frontend_tb/FRONT_END/DISP/div_queue_en \
+sim:/frontend_tb/FRONT_END/DISP/mem_queue_en
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [16], address range [0:15])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
 # Compile of adder_param.sv was successful.
 # Compile of cdb_if.sv was successful.
 # Compile of mux_param.sv was successful.
@@ -168,31 +237,84 @@ vsim work.dispatch_unit_tb -voptargs=+acc
 # Compile of tag_fifo.sv was successful.
 # Compile of dispatch_unit_tb.sv was successful.
 # Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [16], address range [0:15])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/i_code
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
 # Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
 # Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-# ** Warning: (vsim-3356) Index into 'rom' is out of bounds.
-#    Time: 0 ps  Iteration: 0  Instance: /dispatch_unit_tb File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/dispatch_unit_tb.sv Line: 22
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [16], address range [0:15])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
 # Compile of adder_param.sv was successful.
 # Compile of cdb_if.sv was successful.
 # Compile of mux_param.sv was successful.
@@ -209,91 +331,72 @@ restart
 # Compile of tag_fifo.sv was successful.
 # Compile of dispatch_unit_tb.sv was successful.
 # Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/rd
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/rs1
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/rs2
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/rs1_tag
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/rs1_tag_valid
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/rs2_tag
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/rs2_tag_valid
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/rd_token
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/mem_queue_en
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/div_queue_en
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/mult_queue_en
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/int_queue_en
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/opcode
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/ifq_pc
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/ifq_empty
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/dispatch_rd
-add wave -position insertpoint sim:/dispatch_unit_tb/UUT/queue_bus/*
-add wave -position insertpoint sim:/dispatch_unit_tb/UUT/cdb/*
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/REG_FILE/REG_OUT_ARRAY
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
 run
-add wave -position 0  sim:/dispatch_unit_tb/clk
-add wave -position 1  sim:/dispatch_unit_tb/rst
+run
+add wave -position insertpoint  \
+sim:/frontend_tb/PMEM/mem_data
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-run
-run
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
 run
 # Compile of adder_param.sv was successful.
 # Compile of cdb_if.sv was successful.
@@ -311,297 +414,122 @@ run
 # Compile of tag_fifo.sv was successful.
 # Compile of dispatch_unit_tb.sv was successful.
 # Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-run
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
 run
 add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/FIFO/tag_pull
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/FIFO/read_ptr
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/FIFO/fifo_data
+sim:/frontend_tb/PMEM/address
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
 run
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/FIFO/tag_out
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv failed with 2 errors.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 1 failed with 2 errors.
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
 # Compile of adder_param.sv was successful.
 # Compile of cdb_if.sv was successful.
 # Compile of mux_param.sv was successful.
@@ -618,140 +546,592 @@ run
 # Compile of tag_fifo.sv was successful.
 # Compile of dispatch_unit_tb.sv was successful.
 # Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+run
+run
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
 # Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
 # Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+run
+run
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+run
+run
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+run
+run
+run
+run
+run
+run
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/frontend_tb/BMF/cdb/*
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
 run
 add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/REG_ST_TBL/REGISTER_STATUS
+sim:/frontend_tb/BMF/cdb_reg
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
 run
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
 run
 add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/IMM
+sim:/frontend_tb/FRONT_END/IFQ/pc_out
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
 # Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
 # Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/IFQ/PC_PLUS_4
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/IFQ/NEXT_PC
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+run
+run
+run
 run
 add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/STALLER/nstall
+sim:/frontend_tb/BMF/cdb_count
 add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/STALLER/state
+sim:/frontend_tb/BMF/cdb_read_count
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
 # Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
 # Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
 run
 # Compile of adder_param.sv was successful.
 # Compile of cdb_if.sv was successful.
@@ -769,47 +1149,48 @@ run
 # Compile of tag_fifo.sv was successful.
 # Compile of dispatch_unit_tb.sv was successful.
 # Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vopt-143) Recognized 1 FSM in module "dispatch_staller(fast)".
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
 run
 # Compile of adder_param.sv was successful.
 # Compile of cdb_if.sv was successful.
@@ -827,104 +1208,77 @@ run
 # Compile of tag_fifo.sv was successful.
 # Compile of dispatch_unit_tb.sv was successful.
 # Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
 run
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv failed with 1 errors.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 1 failed with 1 error.
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv failed with 1 errors.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 1 failed with 1 error.
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vopt-143) Recognized 1 FSM in module "dispatch_staller(fast)".
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
 run
 # Compile of adder_param.sv was successful.
 # Compile of cdb_if.sv was successful.
@@ -942,368 +1296,1334 @@ run
 # Compile of tag_fifo.sv was successful.
 # Compile of dispatch_unit_tb.sv was successful.
 # Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vopt-143) Recognized 1 FSM in module "dispatch_staller(fast)".
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
+# Loading work.frontend_tb(fast)
 # Loading work.cdb_bus(fast__1)
 # Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
 # Loading work.adder_param(fast)
 # Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
 # Loading work.inst_decoder(fast)
 # Loading work.dispatch_staller(fast)
 # Loading work.tag_fifo(fast)
 # Loading work.reg_stat_table(fast)
 # Loading work.register_file(fast)
 # Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/frontend_tb/BMF/queues_reg
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
 # Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
 # Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv failed with 3 errors.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 1 failed with 3 errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv failed with 9 errors.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 1 failed with 9 errors.
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/frontend_tb/BMF/cdb_reg
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/frontend_tb/BMF/queue_branch
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+run
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/IFQ/jump_branch_valid
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/IFQ/jump_branch_add
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/IFQ/empty
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/IFQ/d_rd_en
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+# Compile of ifq.sv was successful.
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+add wave -position insertpoint  \
+sim:/frontend_tb/FRONT_END/DISP/REG_FILE/REG_OUT_ARRAY
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+run
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-7) Failed to open readmem file "program.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+# **** Error: RestartQ cmd: namespace inscope ::vsimwidgets::ViewMaster {::.view_master SourceUpdatesAfterRestart} sim
+# ****        can't read "cbstate": no such variable
+# can't read "cbstate": no such variable
+#     while executing
+# "if {$cbstate} {
+#                   set PrefSource(WarnSourceChanged) 0
+#                }"
+#     (object "::.main_pane.source.interior.cs.body.srcobj" method "::vsimwidgets::SrcCommon::SourceCheckCompileTime" body line 82)
+#     invoked from within
+# "SourceCheckCompileTime"
+#     (object "::.main_pane.source.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::InitializeForDebug" body line 18)
+#     invoked from within
+# "InitializeForDebug"
+#     (object "::.main_pane.source.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::SourceUpdateLoadComplete" body line 49)
+#     invoked from within
+# "$srcedit SourceUpdateLoadComplete -restart"
+#     (object "::.view_master" method "::vsimwidgets::ViewMaster::SourceUpdatesAfterRestart" body line 7)
+#     invoked from within
+# "::.view_master SourceUpdatesAfterRestart sim"
+#     (in namespace inscope "::vsimwidgets::ViewMaster" script line 1)
+#     invoked from within
+# "namespace inscope ::vsimwidgets::ViewMaster {::.view_master SourceUpdatesAfterRestart} sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-7) Failed to open readmem file "../program.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+add wave -position 10  sim:/frontend_tb/FRONT_END/DISP/ifq_pc
+add wave -position 11  sim:/frontend_tb/FRONT_END/DISP/ifq_icode
+add wave -position 12  sim:/frontend_tb/FRONT_END/DISP/dispatch_rd
+add wave -position 13  sim:/frontend_tb/FRONT_END/DISP/jump_branch_add
+add wave -position 14  sim:/frontend_tb/FRONT_END/DISP/jump_branch_valid
+add wave -position 16 sim:/frontend_tb/FRONT_END/DISP/queue_bus/*
+add wave -position 24  sim:/frontend_tb/FRONT_END/DISP/mult_queue_en
+add wave -position 25  sim:/frontend_tb/FRONT_END/DISP/div_queue_en
+add wave -position 26  sim:/frontend_tb/FRONT_END/DISP/mem_queue_en
+add wave -position 27  sim:/frontend_tb/FRONT_END/DISP/int_queue_en
+add wave -position 28  sim:/frontend_tb/FRONT_END/DISP/disp_imm
+add wave -position 29  sim:/frontend_tb/FRONT_END/DISP/opcode
+add wave -position 30  sim:/frontend_tb/FRONT_END/DISP/funct7
+add wave -position 15  sim:/frontend_tb/FRONT_END/DISP/rd_token
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-7) Failed to open readmem file "C:UsersrfdmDocumentsMDIRepositoriessuperescalarprogram.txt" in read mode.
+# Invalid argument. (errno = EINVAL)    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-7) Failed to open readmem file "C:UsersrfdmDocumentsMDIRepositoriessuperescalarprogram.txt" in read mode.
+# Invalid argument. (errno = EINVAL)    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
+# Compile of adder_param.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of one_hot_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of reg_param_sync_async.sv was successful.
+# Compile of dispatch_staller.sv was successful.
+# Compile of dispatch_unit.sv was successful.
+# Compile of imm_gen.sv was successful.
+# Compile of inst_decoder.sv was successful.
+# Compile of reg_stat_table.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tag_fifo.sv was successful.
+# Compile of dispatch_unit_tb.sv was successful.
+# Compile of duspatch_unit_bmf.sv was successful.
+# Compile of dispatch_unit_smart_bmf.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of frontend_bfm.sv was successful.
+# Compile of frontend_cluster.sv was successful.
+# Compile of frontend_tb.sv was successful.
+# Compile of circular_buff.sv was successful.
+# Compile of ifq.sv was successful.
+# 23 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.frontend_tb(fast)
+# Loading work.cdb_bus(fast__1)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.rom(fast)
+# Loading work.frontend_cluster(fast)
+# Loading work.ifq(fast)
+# Loading work.reg_param(fast)
+# Loading work.adder_param(fast)
+# Loading work.mux_param(fast)
+# Loading work.circular_buff(fast)
+# Loading work.mux_param(fast__1)
+# Loading work.dispatch_unit(fast)
+# Loading work.imm_gen(fast)
+# Loading work.inst_decoder(fast)
+# Loading work.dispatch_staller(fast)
+# Loading work.tag_fifo(fast)
+# Loading work.reg_stat_table(fast)
+# Loading work.register_file(fast)
+# Loading work.one_hot_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.mux_param(fast__2)
+# Loading work.frontend_bfm(fast)
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 65 of file "C:/Users/frfdm/Documents/MDI/Repositories/superescalar/program.txt". (Current address [64], address range [0:63])    : C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv(10)
+#    Time: 0 ps  Iteration: 0  Instance: /frontend_tb/PMEM
 run
 # Causality operation skipped due to absence of debug database file
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/fw_cdb_rs1
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/fw_cdb_rs1
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/rs1_tag_eq_cdb
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/rs2_tag_eq_cdb
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vopt-143) Recognized 1 FSM in module "dispatch_staller(fast)".
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/REG_ST_TBL/tag_write_en
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/REG_ST_TBL/cdb_valid
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/REG_ST_TBL/rd
-add wave -position insertpoint  \
-sim:/dispatch_unit_tb/UUT/REG_ST_TBL/looked_up_rd
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv failed with 2 errors.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 1 failed with 2 errors.
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vopt-143) Recognized 1 FSM in module "dispatch_staller(fast)".
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vopt-143) Recognized 1 FSM in module "dispatch_staller(fast)".
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-run
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv failed with 1 errors.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 1 failed with 1 error.
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv failed with 1 errors.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 1 failed with 1 error.
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vopt-143) Recognized 1 FSM in module "dispatch_staller(fast)".
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-run
-restart
-# Compile of adder_param.sv was successful.
-# Compile of cdb_if.sv was successful.
-# Compile of mux_param.sv was successful.
-# Compile of one_hot_param.sv was successful.
-# Compile of queue_cmn_if.sv was successful.
-# Compile of reg_param.sv was successful.
-# Compile of reg_param_sync_async.sv was successful.
-# Compile of dispatch_staller.sv was successful.
-# Compile of dispatch_unit.sv was successful.
-# Compile of imm_gen.sv was successful.
-# Compile of inst_decoder.sv was successful.
-# Compile of reg_stat_table.sv was successful.
-# Compile of register_file.sv was successful.
-# Compile of tag_fifo.sv was successful.
-# Compile of dispatch_unit_tb.sv was successful.
-# Compile of duspatch_unit_bmf.sv was successful.
-# 16 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
-# ** Note: (vopt-143) Recognized 1 FSM in module "dispatch_staller(fast)".
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading sv_std.std
-# Loading work.dispatch_unit_tb(fast)
-# Loading work.cdb_bus(fast__1)
-# Loading work.queue_cmn_bus(fast__1)
-# Loading work.dispatch_unit(fast)
-# Loading work.imm_gen(fast)
-# Loading work.adder_param(fast)
-# Loading work.mux_param(fast)
-# Loading work.inst_decoder(fast)
-# Loading work.dispatch_staller(fast)
-# Loading work.tag_fifo(fast)
-# Loading work.reg_stat_table(fast)
-# Loading work.register_file(fast)
-# Loading work.one_hot_param(fast)
-# Loading work.reg_param(fast)
-# Loading work.mux_param(fast__1)
-# Loading work.dispatch_unit_bmf(fast)
-run
-run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/frfdm/Documents/MDI/Repositories/superescalar/front_end_cluster/questa_sim/wave.do
+# End time: 23:54:37 on Oct 12,2024, Elapsed time: 2:05:44
+# Errors: 0, Warnings: 3

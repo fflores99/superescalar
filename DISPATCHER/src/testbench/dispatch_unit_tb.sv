@@ -2,24 +2,29 @@
 
 module dispatch_unit_tb();
 
-logic [31:0] rom [16];
+logic [31:0] rom [21];
 
-assign rom[0] = 32'h01400213;
-assign rom[1] = 32'h01e00293;
-assign rom[2] = 32'h03c00313;
-assign rom[3] = 32'h00628233;
-assign rom[4] = 32'h06400513;
-assign rom[5] = 32'h00626333;
-assign rom[6] = 32'h00527433;
+assign rom[0] = 32'h00a00213;
+assign rom[1] = 32'h00b00293;
+assign rom[2] = 32'h01500313;
+assign rom[3] = 32'h004283b3;
+assign rom[4] = 32'h00520863;
+assign rom[5] = 32'h00638663;
+assign rom[6] = 32'h00000013;
 assign rom[7] = 32'h00000013;
-assign rom[8] = 32'h00000013;
-assign rom[9] = 32'h00000013;
-assign rom[10] = 32'h00000013;
-assign rom[11] = 32'h00000013;
-assign rom[12] = 32'h00000013;
-assign rom[13] = 32'h00000013;
+assign rom[8] = 32'h02520433;
+assign rom[9] = 32'h0fc10497;
+assign rom[10] = 32'hfdc4a483;
+assign rom[11] = 32'h0fc10517;
+assign rom[12] = 32'hfc452a23;
+assign rom[13] = 32'h00c000ef;
 assign rom[14] = 32'h00000013;
 assign rom[15] = 32'h00000013;
+assign rom[16] = 32'h00000013;
+assign rom[17] = 32'h00000013;
+assign rom[18] = 32'h00000013;
+assign rom[19] = 32'h00000013;
+assign rom[20] = 32'h00000013;
 
 reg clk, rst;
 
@@ -64,7 +69,7 @@ dispatch_unit UUT (
     .mem_queue_en(mem_queue_en)
 );
 
-dispatch_unit_bmf BMF (
+dispatch_unit_smart_bmf BMF (
     .clk(clk),
     .rst(rst),
     .cdb(cdb),
@@ -83,7 +88,6 @@ initial
 begin
     clk = 1'b0;
     rst = 1'b1;
-    ifq_icode = rom[0];
     ifq_pc = 32'h00400000;
     ifq_empty = 1;
     @(posedge clk);
@@ -97,24 +101,19 @@ begin
     #5 clk = ~clk;
 end
 
+assign ifq_icode = rom[ifq_pc[6:2]];
+
 always
 begin
-    if(ifq_empty)
-        @(posedge clk);
-    else if(!dispatch_rd)
-        @(posedge clk);
-    else
-        fetched_instruction();
+    @(posedge clk);
+    if(!ifq_empty)
+        if(jump_branch_valid)
+            ifq_pc = jump_branch_add;
+        else
+            if(dispatch_rd)
+                ifq_pc += 32'd4;
 end
 
-integer rom_idx = 0;
-task fetched_instruction();
-    rom_idx++;
-    ifq_icode = rom[rom_idx];
-    ifq_pc += 32'h4;
-    @(posedge clk);
-    
-endtask
 
 task fifo_not_empty();
     ifq_empty = 0;
