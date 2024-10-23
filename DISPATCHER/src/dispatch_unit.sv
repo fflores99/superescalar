@@ -27,7 +27,7 @@ module dispatch_unit (
 );
 
 wire [31:0] IMM;
-wire [31:0] JMP_ADD;
+wire [31:0] JMP_ADD, JMP_OR_BRANCH_ADD, BRANCH_ADD;
 /*Instruction formater*/
 assign opcode = ifq_icode[6:0];
 wire [4:0] rd = ifq_icode[11:7];
@@ -59,6 +59,9 @@ wire fw_cdb_rs1, fwd_cdb_rs2;
 wire rs1_tag_eq_cdb, rs2_tag_eq_cdb;
 /*Zero register bypass*/
 wire rd_is_not_zero;
+
+wire branch_add_reg_en;
+
 assign rd_is_not_zero = (rd == 5'd0) ? 1'b0: 1'b1;
 
 /*Immediate generator*/
@@ -74,7 +77,7 @@ JMP_ADD_ADDER
 (
     .A(ifq_pc),
     .B(IMM),
-    .S(JMP_ADD),
+    .S(JMP_OR_BRANCH_ADD),
     .carry()
 );
 /* JMP_ADDRESS_MUX
@@ -91,6 +94,42 @@ JMP_ADDRESS_MUX
     .X('{cdb.data,JMP_ADD}),
     .SEL(cdb.jalr),
     .Y(jump_branch_add)
+);
+
+
+
+/*Branch Register*/
+reg_param #(
+	.LENGTH(32),
+	.RESET_VALUE(32'h00400000)
+)
+BRANCH_ADD_REG
+(
+/*Inputs*/
+	/*Control*/
+	.clk(clk), /*System Clock*/
+	.en(branch_add_reg_en), /*Enable next fetch if ifq not empty or a jump/branch*/
+	.rst(rst), /*REset on high*/
+	/*Data*/
+	.DATA_IN(JMP_OR_BRANCH_ADD), /*Data input of LENGTH bits*/
+/*Outputs*/
+	.DATA_OUT(BRANCH_ADD) /*Data output of LENGTH bits*/
+);
+
+/* JMP_BRANCH
+ *
+ * SEL = 0, jump_branch_add = PC + IMM
+ * SEL = 1, JUMP = CDB_DATA
+*/
+mux_param #(
+    .WIDTH(32), 
+    .N(2)
+)
+JMP_ABRANCH_MUX
+(
+    .X('{JMP_OR_BRANCH_ADD,BRANCH_ADD}),
+    .SEL(dec_jmp),
+    .Y(JMP_ADD)
 );
 
 /*Instruction decoder*/
@@ -121,7 +160,8 @@ dispatch_staller STALLER (
     .branch_solved(cdb.branch),
     .jalr_solved(cdb.jalr),
     .ifq_empty(ifq_empty),
-    .nstall(nstall)
+    .nstall(nstall),
+    .branch_add_reg_en(branch_add_reg_en)
 );
 
 /**********Register Renaming**********/

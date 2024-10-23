@@ -1,0 +1,522 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s12c _opt2
+R1
+R0
+R1
+Z2 !s12c _opt
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 dC:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/questa_sim
+T_opt
+!s110 1727836158
+V3NV4gXo0W5SACNV^3c14H0
+Z4 04 16 4 work dispatch_unit_tb fast 0
+=5-48e7da540d9d-66fcaffe-1bf-74d8
+R1
+Z5 !s12b OEM100
+Z6 !s124 OEM10U50 
+Z7 o-quiet -auto_acc_if_foreign -work work +acc
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2023.3;77
+R3
+T_opt1
+!s110 1728535420
+Vm9`n^fm_NX6VO5giDRE1>0
+04 3 4 work rom fast 0
+=8-48e7da540d9d-67075b7b-22b-2fb8
+R1
+R5
+!s124 OEM10U1 
+R7
+R8
+n@_opt1
+R9
+T_opt2
+!s110 1727892492
+VRnZGPd@7Wm;1TT@@5Tl940
+R4
+=1-48e7da540d9d-66fd8c0b-34e-2418
+R1
+R5
+R6
+R7
+R8
+n@_opt2
+R9
+R3
+vadder_param
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/adder_param.sv
+Z10 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z11 !s110 1728535412
+!i10b 1
+!s100 gQ>fd`W9Cg4XHWCL1f1GD0
+IJ7?V_GenKa6PAXSE;C:e00
+S1
+Z12 dC:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/questa_sim
+Z13 w1727744784
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/adder_param.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/adder_param.sv
+!i122 1449
+L0 1 13
+Z14 VDg1SIo80bB@j0V0VzS_@n1
+Z15 OL;L;2023.3;77
+r1
+!s85 0
+31
+!i113 0
+Z16 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+Ycdb_bus
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/cdb_if.sv
+R10
+R11
+!i10b 1
+!s100 7CY]B3mc0M23@DZF5;>zC1
+IG`n1aCfFB@MQ<zU`;3gR43
+S1
+R12
+w1727753107
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/cdb_if.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/cdb_if.sv
+!i122 1450
+Z17 L0 1 0
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+vdispatch_staller
+Z18 2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_staller.sv
+R10
+Z19 !s110 1728535413
+!i10b 1
+!s100 TbGQflFKN3>X1?M[YiO:j3
+IMn:WGdP:XfXieOiT1Yde71
+S1
+R12
+w1727833283
+Z20 8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_staller.sv
+Z21 FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_staller.sv
+!i122 1456
+L0 1 78
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+Xdispatch_staller_sv_unit
+R18
+R10
+!s110 1727763150
+Va5dOi6B`NA[Omak0k=Wff0
+r1
+!s85 0
+!i10b 1
+!s100 ^ObjCB^Wz6nb_SZUEmFdg0
+Ia5dOi6B`NA[Omak0k=Wff0
+!i103 1
+S1
+R12
+w1727763145
+R20
+R21
+!i122 27
+L0 53 0
+R15
+31
+!i113 0
+R16
+R8
+vdispatch_unit
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_unit.sv
+R10
+Z22 !s110 1728535414
+!i10b 1
+!s100 E^4JNkl3o8;@12KIiMSDS1
+IT]WegjVMg3XH[f<SzJ?DR3
+S1
+R12
+w1727833143
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_unit.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_unit.sv
+!i122 1457
+L0 1 247
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+vdispatch_unit_bmf
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/duspatch_unit_bmf.sv
+R10
+Z23 !s110 1728535415
+!i10b 1
+!s100 R`YWb07CE?K71bn]6CLg`1
+I]K_aLfCk=A4TfLZ]Y:;HM0
+S1
+R12
+w1727830403
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/duspatch_unit_bmf.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/duspatch_unit_bmf.sv
+!i122 1464
+L0 1 47
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+vdispatch_unit_smart_bmf
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/dispatch_unit_smart_bmf.sv
+R10
+R23
+!i10b 1
+!s100 [DbaGZ=od_n0n?fMSTOdL3
+IS1j6<?<1W78c2KfmiUo4?0
+S1
+R12
+w1727836292
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/dispatch_unit_smart_bmf.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/dispatch_unit_smart_bmf.sv
+!i122 1465
+L0 3 143
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+vdispatch_unit_tb
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/dispatch_unit_tb.sv
+R10
+R23
+!i10b 1
+!s100 TkZ;S1g[<EHdDN1jaOcIJ1
+IPW9M2LNQ3cYm0F=0]SToj2
+S1
+R12
+w1727892795
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/dispatch_unit_tb.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/dispatch_unit_tb.sv
+!i122 1463
+L0 3 119
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+vimm_gen
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/imm_gen.sv
+R10
+R22
+!i10b 1
+!s100 81]:8Fc@k[<]Y[=g9P^:I3
+Ie4DH]fRAQ?0g:;a6THDbd1
+S1
+R12
+w1712381796
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/imm_gen.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/imm_gen.sv
+!i122 1458
+L0 1 44
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+vinst_decoder
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/inst_decoder.sv
+R10
+R22
+!i10b 1
+!s100 6H8FV=Gl]NNmWba4aGe4I3
+IkZhk[i;Lmz5Vm5^_SbfeZ3
+S1
+R12
+w1727810088
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/inst_decoder.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/inst_decoder.sv
+!i122 1459
+L0 1 125
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+vmux_param
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/mux_param.sv
+R10
+R19
+!i10b 1
+!s100 @8edgF2U[[;dgF1eF[_mR2
+Ig2?J?MJQXKiC^O57_kkiN2
+S1
+R12
+R13
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/mux_param.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/mux_param.sv
+!i122 1451
+L0 15 13
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+vone_hot_param
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/one_hot_param.sv
+R10
+R19
+!i10b 1
+!s100 h442_hPPPD^FzTF?Q?P:>1
+I`B1oP:k_8l=z<6VZLHXfG1
+S1
+R12
+R13
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/one_hot_param.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/one_hot_param.sv
+!i122 1452
+L0 1 15
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+Yqueue_cmn_bus
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/queue_cmn_if.sv
+R10
+R19
+!i10b 1
+!s100 Wl=O`0`hg]EFX9W^L??bJ1
+IEjEQ]EFo9cmB:J5C9EQZA0
+S1
+R12
+w1727757984
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/queue_cmn_if.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/queue_cmn_if.sv
+!i122 1453
+R17
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+vreg_param
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv
+R10
+R19
+!i10b 1
+!s100 jJ9mLFaR7Aa8WM7VGnPoE0
+I[i:^jaQ1Clm9KcN<VaV1;2
+S1
+R12
+R13
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv
+!i122 1454
+L0 11 28
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+vreg_param_sync_async
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param_sync_async.sv
+R10
+R19
+!i10b 1
+!s100 MF6bW@Qhk[[nH]ddg=Adf3
+I@Q:ZUMQEb72E;FBJb]d7A0
+S1
+R12
+R13
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param_sync_async.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param_sync_async.sv
+!i122 1455
+L0 11 31
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+vreg_stat_table
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv
+R10
+R22
+!i10b 1
+!s100 [IbYHEcz7<V>IP7z?Pd^]0
+IFmk9G^;0;e8LeUNHRFQjL2
+S1
+R12
+w1727833797
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv
+!i122 1460
+L0 1 73
+R14
+R15
+r1
+!s85 0
+31
+!i113 0
+R16
+R8
+vregister_file
+2C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/register_file.sv
+R10
+R22
+!i10b 1
+!s100 0`2j>4B>hhJE0UY2DCWUK3
+IOjKoOeWo:1<UhMLmA4lgh0
+S1
+R12
+R13
+8C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/register_file.sv
+FC:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/register

@@ -41,6 +41,7 @@ always_ff @( posedge clk, posedge rst ) begin : sequential
                 counter <= counter + 1'b1;
             else
                 counter <= 4'd0;
+
     end    
 end
 endmodule
