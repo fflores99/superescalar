@@ -1,0 +1,106 @@
+C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/tag_fifo.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/tag_fifo.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module tag_fifo
+
+Top level modules:
+	tag_fifo
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module reg_param
+
+Top level modules:
+	reg_param
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param_sync_async.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param_sync_async.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module reg_param_sync_async
+
+Top level modules:
+	reg_param_sync_async
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/dispatch_unit_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/dispatch_unit_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module dispatch_unit_tb
+
+Top level modules:
+	dispatch_unit_tb
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/adder_param.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/adder_param.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module adder_param
+
+Top level modules:
+	adder_param
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/queue_cmn_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/queue_cmn_if.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling interface queue_cmn_bus
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/register_file.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/register_file.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/imm_gen.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/imm_gen.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module imm_gen
+
+Top level modules:
+	imm_gen
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/duspatch_unit_bmf.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/testbench/duspatch_unit_bmf.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module dispatch_unit_bmf
+
+Top level modules:
+	dispatch_unit_bmf
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/one_hot_param.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/one_hot_param.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module one_hot_param
+
+Top level modules:
+	one_hot_param
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module reg_stat_table
+
+Top level modules:
+	reg_stat_table
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/cdb_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/cdb_if.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling interface cdb_bus
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/inst_decoder.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/inst_decoder.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module inst_decoder
+
+Top level modules:
+	inst_decoder
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/mux_param.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/mux_param.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module mux_param
+
+Top level modules:
+	mux_param
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_staller.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/dispatch_staller.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module dispatch_staller
+
+Top level modules:
+	dispatch_staller
+
+} {} {}}

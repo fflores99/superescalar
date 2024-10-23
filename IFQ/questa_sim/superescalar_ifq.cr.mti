@@ -1,0 +1,50 @@
+C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/adder_param.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/adder_param.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module adder_param
+
+Top level modules:
+	adder_param
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/testbench/circular_buffer_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/testbench/circular_buffer_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module circular_buffer_tb
+
+Top level modules:
+	circular_buffer_tb
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/circular_buff.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/circular_buff.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module circular_buff
+
+Top level modules:
+	circular_buff
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/ifq.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/ifq.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module ifq
+
+Top level modules:
+	ifq
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module reg_param
+
+Top level modules:
+	reg_param
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/mux_param.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/mux_param.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module mux_param
+
+Top level modules:
+	mux_param
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/testbench/ifq_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/testbench/ifq_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module ifq_tb
+
+Top level modules:
+	ifq_tb
+
+} {} {}}
