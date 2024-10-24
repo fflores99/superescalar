@@ -6,6 +6,7 @@ module issue_ctrl (
     input [5:0] rs2_tag[4]; /*RS2 tag from each register*/
     input rs2_data_valid[4]; /*RS2 data valid from each register*/
     input valid[4]; /*RD valid from each register used to track if instruction in register is a valid instruction*/
+    input ready[4];
     /*interface inputs*/
     input queue_en; /*queue enebale from dispatch*/
     input ex_done; /*Excecute done from Excecution Unit*/
@@ -13,8 +14,11 @@ module issue_ctrl (
     input [5:0] cdb_tag; /*Published CDB tag*/
     input cdb_data_valid; /*Published CDB data valid*/
     /*Update muxes control*/
-    output reg [1:0] rs1_updt_sel[4]; /*Selector for RS1 mux on each register*/
-    output reg [1:0] rs2_updt_sel[4]; /*Selector for RS2 mux on each register*/
+    output reg rs1_updt_en[4];
+    output reg rs1_updt_from_cdb[4];
+    output reg rs2_updt_en[4];
+    output reg rs2_updt_from_cdb[4];
+    output reg updt_cmn[4];
     /*Register control*/
     output reg reg_we[4]; /*Enable for registers*/
     /*Output control*/
@@ -29,12 +33,6 @@ module issue_ctrl (
 enum reg[1:0] {REG_EMPTY, REG_WAITING, REG_READY} rstatus;
 rstatus REG_STATUS[4];
 
-/*Used for update mux selectors*/
-localparam UPDT_SEL_PREV_REG    = 2'b00;
-localparam UPDT_SEL_CDB         = 2'b01;
-localparam UPDT_SEL_NO_UPDT     = 2'b10;
-localparam UPDT_SEL_CLEAR       = 2'b11;
-
 /*Used to track register operations*/
 reg reg_shift[4], reg_updt_rs1[4], reg_updt_rs2[4];
 
@@ -44,7 +42,7 @@ always_comb begin : status_decoder
     for (i = 0; i < 4; i++) begin
         if(valid[i]) begin
             /*Register is not empty*/
-            if(rs1_data_valid[i] == 1'b1 && rs2_data_valid[i] == 1'b1) begin
+            if(ready[i]) begin
                 /*Register is ready to be issued*/
                 REG_STATUS[i] = REG_READY;
             end else begin
@@ -129,58 +127,63 @@ always_comb begin : updt_ctrl
             reg_updt_rs2[0] = 1'b0;
     end
 end
-/*
-UPDT_SEL_PREV_REG    = 2'b00;
-UPDT_SEL_CDB         = 2'b01;
-UPDT_SEL_NO_UPDT     = 2'b10;
-UPDT_SEL_CLEAR       = 2'b11;
-*/
+
 /*Update selector*/
 always_comb begin : update_selector
-    integer i;
-    /*Reg can have data from dispatch or a fixed 0 if data from dispatch is not valid*/
-    if(queue_en) begin
-        rs1_updt_sel[0] = UPDT_SEL_CLEAR;
-        rs2_updt_sel[0] = UPDT_SEL_CLEAR;
-    end
-    else begin
-        rs1_updt_sel[0] = UPDT_SEL_CLEAR;
-        rs2_updt_sel[0] = UPDT_SEL_CLEAR;
-    end
-    /*Reg 1 and 2 can update its own or the next depending is a shift is requested*/
-    for (i = 1; i < 4; i += 1) begin
+    integer 1;
+    for (i = 0; i < 4; i += 1) begin
         if(reg_shift[i] == 1'b1) begin
             /*Reg i is requesting data from reg i-1*/
-            /*Compares with prev register operation*/
-            if(rs1_updt_sel[i-1] == 1'b1)
-            /*Update rs1 with CDB*/
-                rs1_updt_sel[1] = UPDT_SEL_CDB;
-            else
-            /*No update*/
-                rs1_updt_sel[1] = UPDT_SEL_PREV_REG;
+            /*All register is enabled for writting*/
+            rs1_updt_en[i] = 1'b1;
+            rs2_updt_en[i] = 1'b1;
+            reg_we[i] = 1'b1;
+            updt_cmn[i] = 1'b1;
+            if(i == 0) begin
+                /*register 0 is all updated using dispatch */
+                rs1_updt_from_cdb[i] = 1'b0;
+                rs2_updt_from_cdb[i] = 1'b0;    
+            end
+            else begin
+                /*Registers other than 0*/
+                /*Compares with prev register operation*/
+                if(reg_updt_rs1[i-1] == 1'b1)
+                /*Update rs1 with CDB*/
+                    rs1_updt_from_cdb[i] = 1'b1;
+                else
+                /*Update from previous*/
+                    rs1_updt_from_cdb[i] = 1'b0;
 
-            if(rs2_updt_sel[i-1] == 1'b1)
-            /*Update rs2 with CDB*/
-                rs2_updt_sel[i] = UPDT_SEL_CDB;
-            else
-            /*No update*/
-                rs2_updt_sel[i] = UPDT_SEL_PREV_REG;
+                if(reg_updt_rs2[i-1] == 1'b1)
+                /*Update rs2 with CDB*/
+                    rs2_updt_from_cdb[i] = 1'b1;
+                else
+                /*Update from previous*/
+                    rs2_updt_from_cdb[i] = 1'b0;
+            end
+
         end
         else begin
             /*Reg i is not requesting data from reg i-1*/
-            if(rs1_updt_sel[i] == 1'b1)
-            /*Update rs1 with CDB*/
-                rs1_updt_sel[i] = UPDT_SEL_CDB;
+            updt_cmn[i] = 1'b0;
+            /*Enables writting if there is an update*/
+            reg_we[i] = reg_updt_rs1[i] | reg_updt_rs2[i];
+            /*Selects data from cdb*/
+            rs1_updt_from_cdb[i] = 1'b1;
+            rs2_updt_from_cdb[i] = 1'b1;
+            if(reg_updt_rs1[i] == 1'b1)
+            /*Update rs1*/
+                rs1_updt_en[i] = 1'b1;               
             else
             /*No update*/
-                rs1_updt_sel[i] = UPDT_SEL_NO_UPDT;
+                rs1_updt_en[i] = 1'b0;
 
-            if(rs2_updt_sel[i] == 1'b1)
-            /*Update rs2 with CDB*/
-                rs2_updt_sel[i] = UPDT_SEL_CDB;
+            if(reg_updt_rs2[i] == 1'b1)
+            /*Update rs2*/
+                rs2_updt_en[i] = 1'b1; 
             else
             /*No update*/
-                rs2_updt_sel[i] = UPDT_SEL_NO_UPDT;
+                rs2_updt_en[i] = 1'b0; 
         end
     end
 

@@ -9,4 +9,4 @@ interface queue_cmn_bus();
     logic [6:0] opcode,
     logic [6:0] funct7,
     logic [2:0] funct3;
-endinterface
+endinterface /*102 bits*/
