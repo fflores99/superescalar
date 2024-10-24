@@ -1,36 +1,36 @@
 module issue_ctrl (
     /*Status of registers*/
     /*Reg inputs*/
-    input [5:0] rs1_tag[4]; /*RS1 tag from each register*/
-    input rs1_data_valid[4]; /*RS1 data valid from each register*/
-    input [5:0] rs2_tag[4]; /*RS2 tag from each register*/
-    input rs2_data_valid[4]; /*RS2 data valid from each register*/
-    input valid[4]; /*RD valid from each register used to track if instruction in register is a valid instruction*/
-    input ready[4];
+    input [5:0] rs1_tag[4], /*RS1 tag from each register*/
+    input rs1_data_valid[4], /*RS1 data valid from each register*/
+    input [5:0] rs2_tag[4], /*RS2 tag from each register*/
+    input rs2_data_valid[4], /*RS2 data valid from each register*/
+    input valid[4], /*RD valid from each register used to track if instruction in register is a valid instruction*/
+    input ready[4],
     /*interface inputs*/
-    input queue_en; /*queue enebale from dispatch*/
-    input ex_done; /*Excecute done from Excecution Unit*/
+    input queue_en, /*queue enebale from dispatch*/
+    input ex_done, /*Excecute done from Excecution Unit*/
     /*CDB inputs*/
-    input [5:0] cdb_tag; /*Published CDB tag*/
-    input cdb_data_valid; /*Published CDB data valid*/
+    input [5:0] cdb_tag, /*Published CDB tag*/
+    input cdb_data_valid, /*Published CDB data valid*/
     /*Update muxes control*/
-    output reg rs1_updt_en[4];
-    output reg rs1_updt_from_cdb[4];
-    output reg rs2_updt_en[4];
-    output reg rs2_updt_from_cdb[4];
-    output reg updt_cmn[4];
+    output reg rs1_updt_en[4],
+    output reg rs1_updt_from_cdb[4],
+    output reg rs2_updt_en[4],
+    output reg rs2_updt_from_cdb[4],
+    output reg updt_cmn[4],
     /*Register control*/
-    output reg reg_we[4]; /*Enable for registers*/
+    output reg reg_we[4], /*Enable for registers*/
     /*Output control*/
-    output reg [1:0] output_selector; /*Selector for output mux, also used to track which register is being output*/
+    output reg [1:0] output_selector, /*Selector for output mux, also used to track which register is being output*/
     /*Back pressure*/
-    output reg queue_full; /*Queue full indicator*/
+    output reg queue_full, /*Queue full indicator*/
     /*Issue controller*/
-    output reg issue_valid; /*Issue valid bit to indicate excecution unit that data output is valid*/
+    output reg issue_valid /*Issue valid bit to indicate excecution unit that data output is valid*/
 );
 
 /*Used to track the state of each register*/
-enum reg[1:0] {REG_EMPTY, REG_WAITING, REG_READY} rstatus;
+typedef enum reg[1:0] {REG_EMPTY, REG_WAITING, REG_READY} rstatus;
 rstatus REG_STATUS[4];
 
 /*Used to track register operations*/
@@ -116,21 +116,21 @@ always_comb begin : updt_ctrl
     /*A register is updated if CDB publishes its dependency*/
     integer i;
     for (i = 0; i < 4; i += 1) begin
-        if(cdb_valid == 1'b1 && cdb_tag == rs1_tag[0])
-            reg_updt_rs1[0] = 1'b1;
+        if(cdb_data_valid == 1'b1 && cdb_tag == rs1_tag[i] && rs1_data_valid[i] == 1'b0)
+            reg_updt_rs1[i] = 1'b1;
         else
-            reg_updt_rs1[0] = 1'b0;
+            reg_updt_rs1[i] = 1'b0;
         
-        if(cdb_valid == 1'b1 && cdb_tag == rs2_tag[0])
-            reg_updt_rs2[0] = 1'b1;
+        if(cdb_data_valid == 1'b1 && cdb_tag == rs2_tag[i] && rs2_data_valid[i] == 1'b0)
+            reg_updt_rs2[i] = 1'b1;
         else
-            reg_updt_rs2[0] = 1'b0;
+            reg_updt_rs2[i] = 1'b0;
     end
 end
 
 /*Update selector*/
 always_comb begin : update_selector
-    integer 1;
+    integer i;
     for (i = 0; i < 4; i += 1) begin
         if(reg_shift[i] == 1'b1) begin
             /*Reg i is requesting data from reg i-1*/

@@ -1,0 +1,815 @@
+# Compile of issue_ctrl.sv failed with 1 errors.
+# Compile of issue_queue.sv failed with 2 errors.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv failed with 1 errors.
+# Compile of reg_param.sv was successful.
+# 7 compiles, 3 failed with 4 errors.
+# Compile of issue_ctrl.sv failed with 1 errors.
+# Compile of issue_queue.sv failed with 7 errors.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# 7 compiles, 2 failed with 8 errors.
+# Compile of issue_ctrl.sv failed with 25 errors.
+# Compile of issue_ctrl.sv failed with 1 errors.
+# Compile of issue_ctrl.sv failed with 1 errors.
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv failed with 7 errors.
+# Compile of issue_queue.sv failed with 1 errors.
+# Compile of issue_queue.sv failed with 5 errors.
+# Compile of issue_queue.sv failed with 1 errors.
+# Compile of issue_queue.sv failed with 3 errors.
+# Compile of issue_queue.sv failed with 1 errors.
+# Compile of issue_queue.sv failed with 10 errors.
+# Compile of issue_queue.sv failed with 10 errors.
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv failed with 1 errors.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv failed with 3 errors.
+# 8 compiles, 2 failed with 4 errors.
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv failed with 3 errors.
+# 8 compiles, 1 failed with 3 errors.
+# Compile of if_mux.sv failed with 10 errors.
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv failed with 2 errors.
+# 9 compiles, 1 failed with 2 errors.
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv failed with 7 errors.
+# 9 compiles, 1 failed with 7 errors.
+# Compile of issue_queue_tb.sv failed with 5 errors.
+# Compile of issue_queue_tb.sv failed with 4 errors.
+# Compile of issue_queue_tb.sv was successful.
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.issue_queue_tb -voptargs=+acc
+# vsim work.issue_queue_tb -voptargs="+acc" 
+# Start time: 20:00:03 on Oct 23,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Error (suppressible): C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/issue_queue.sv(146): (vopt-7063) Failed to find 'cda' in hierarchical name 'cda.data'.
+#         Region: issue_queue_tb.UUT.genblk1[1]
+# ** Error (suppressible): C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/issue_queue.sv(146): (vopt-7063) Failed to find 'cda' in hierarchical name 'cda.data'.
+#         Region: issue_queue_tb.UUT.genblk1[2]
+# ** Error (suppressible): C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/issue_queue.sv(146): (vopt-7063) Failed to find 'cda' in hierarchical name 'cda.data'.
+#         Region: issue_queue_tb.UUT.genblk1[3]
+# ** Error (suppressible): C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/issue_queue.sv(114): (vopt-7063) Failed to find 'cda' in hierarchical name 'cda.data'.
+#         Region: issue_queue_tb.UUT
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=4, Warnings=1.
+# Error loading design
+# End time: 20:00:05 on Oct 23,2024, Elapsed time: 0:00:02
+# Errors: 4, Warnings: 32
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+# Load canceled
+vsim work.issue_queue_tb -voptargs=+acc
+# vsim work.issue_queue_tb -voptargs="+acc" 
+# Start time: 20:01:07 on Oct 23,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.if_mux(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_IN'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/RES_REG_0/RS1_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_OUT'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/RES_REG_0/RS1_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_IN'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/RES_REG_0/RS2_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 98
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_OUT'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/RES_REG_0/RS2_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 98
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_IN'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/genblk1[1]/RES_REG/RS1_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_OUT'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/genblk1[1]/RES_REG/RS1_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_IN'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/genblk1[1]/RES_REG/RS2_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 98
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_OUT'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/genblk1[1]/RES_REG/RS2_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 98
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_IN'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/genblk1[2]/RES_REG/RS1_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_OUT'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/genblk1[2]/RES_REG/RS1_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_IN'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/genblk1[2]/RES_REG/RS2_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 98
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_OUT'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/genblk1[2]/RES_REG/RS2_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 98
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_IN'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/genblk1[3]/RES_REG/RS1_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_OUT'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/genblk1[3]/RES_REG/RS1_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_IN'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/genblk1[3]/RES_REG/RS2_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 98
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'DATA_OUT'. The port definition is at: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/reg_param.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /issue_queue_tb/UUT/genblk1[3]/RES_REG/RS2_REG File: C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/reservation_reg.sv Line: 98
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+add wave -position insertpoint  \
+sim:/issue_queue_tb/clk
+add wave -position insertpoint  \
+sim:/issue_queue_tb/rst
+add wave -position insertpoint  \
+sim:/issue_queue_tb/int_queue_en
+add wave -position insertpoint  \
+sim:/issue_queue_tb/disp_imm
+add wave -position insertpoint  \
+sim:/issue_queue_tb/disp_pc
+add wave -position insertpoint  \
+sim:/issue_queue_tb/opcode
+add wave -position insertpoint  \
+sim:/issue_queue_tb/funct7
+add wave -position insertpoint  \
+sim:/issue_queue_tb/queue_en
+add wave -position insertpoint  \
+sim:/issue_queue_tb/queue_full
+add wave -position insertpoint  \
+sim:/issue_queue_tb/issue_valid
+add wave -position insertpoint  \
+sim:/issue_queue_tb/ex_done
+add wave -position insertpoint  \
+sim:/issue_queue_tb/issue_pc
+add wave -position insertpoint  \
+sim:/issue_queue_tb/issue_imm
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+run
+run
+add wave -position insertpoint {sim:/issue_queue_tb/UUT/queue_bus_reg[0]/*}
+add wave -position insertpoint {sim:/issue_queue_tb/UUT/queue_bus_reg[1]/*}
+add wave -position insertpoint {sim:/issue_queue_tb/UUT/queue_bus_reg[2]/*}
+add wave -position insertpoint {sim:/issue_queue_tb/UUT/queue_bus_reg[3]/*}
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+add wave -position insertpoint sim:/issue_queue_tb/cdb/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+run
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+add wave -position insertpoint {sim:/issue_queue_tb/UUT/genblk1[2]/RES_REG/*}
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+add wave -position insertpoint  \
+sim:/issue_queue_tb/UUT/CTRL/reg_updt_rs1
+add wave -position insertpoint  \
+sim:/issue_queue_tb/UUT/CTRL/reg_updt_rs2
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+add wave -position insertpoint  \
+sim:/issue_queue_tb/UUT/CTRL/REG_STATUS
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+add wave -position insertpoint  \
+sim:/issue_queue_tb/UUT/CTRL/rs1_tag
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/clk'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/rst'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/we'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/updt_cmn_block'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/updt_rs1'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/updt_rs1_from_cdb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/updt_rs2'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/updt_rs2_from_cdb'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/imm'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/pc'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/cdb_data_valid'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/cdb_data'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/imm_out'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/pc_out'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/res_reg_ready'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/rs1_data_to_reg'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/rs1_data_valid_to_reg'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/rs2_data_to_reg'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/issue_queue_tb/UUT/genblk1[2]/RES_REG/rs2_data_valid_to_reg'. 
+run
+run
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+add wave -position insertpoint  \
+sim:/issue_queue_tb/UUT/CTRL/reg_shift
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+add wave -position insertpoint  \
+sim:/issue_queue_tb/UUT/CTRL/issue_valid
+add wave -position insertpoint /issue_queue_tb/UUT/CTRL/reg_shift
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+add wave -position insertpoint sim:/issue_queue_tb/UUT/CTRL/ex_done
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+add wave -position insertpoint  \
+{sim:/issue_queue_tb/UUT/reg_station[3]/RES_REG/updt_rs2}
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+add wave -position insertpoint  \
+{sim:/issue_queue_tb/UUT/reg_station[3]/RES_REG/RS2_REG/en}
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+add wave -position insertpoint  \
+sim:/issue_queue_tb/UUT/CTRL/valid
+add wave -position insertpoint  \
+sim:/issue_queue_tb/UUT/CTRL/ready
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+# Compile of issue_ctrl.sv was successful.
+# Compile of issue_queue.sv was successful.
+# Compile of reservation_reg.sv was successful.
+# Compile of cdb_if.sv was successful.
+# Compile of mux_param.sv was successful.
+# Compile of queue_cmn_if.sv was successful.
+# Compile of reg_param.sv was successful.
+# Compile of if_mux.sv was successful.
+# Compile of issue_queue_tb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+add wave -position insertpoint sim:/issue_queue_tb/issue_queue_bus/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.issue_queue_tb(fast)
+# Loading work.queue_cmn_bus(fast__1)
+# Loading work.cdb_bus(fast__1)
+# Loading work.issue_queue(fast)
+# Loading work.issue_ctrl(fast)
+# Loading work.reservation_reg(fast)
+# Loading work.reg_param(fast)
+# Loading work.reg_param(fast__1)
+# Loading work.reg_param(fast__2)
+# Loading work.reg_param(fast__3)
+# Loading work.if_mux(fast)
+run
+run
+add wave -position insertpoint  \
+sim:/issue_queue_tb/UUT/issue_valid
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/frfdm/Documents/MDI/Repositories/superescalar/Issue Queue/sim/wave.do}

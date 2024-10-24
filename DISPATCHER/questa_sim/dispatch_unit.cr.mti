@@ -89,12 +89,12 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	one_hot_param
 
-} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/frontend_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/frontend_tb.sv
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module frontend_tb
+-- Compiling module reg_stat_table
 
 Top level modules:
-	frontend_tb
+	reg_stat_table
 
 } {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/circular_buff.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/circular_buff.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -103,19 +103,12 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 Top level modules:
 	circular_buff
 
-} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/DISPATCHER/src/reg_stat_table.sv
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/frontend_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/frontend_tb.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module reg_stat_table
+-- Compiling module frontend_tb
 
 Top level modules:
-	reg_stat_table
-
-} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/ifq.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/ifq.sv
-Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
--- Compiling module ifq
-
-Top level modules:
-	ifq
+	frontend_tb
 
 } {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/rom.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
@@ -123,6 +116,13 @@ Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
 
 Top level modules:
 	rom
+
+} {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/ifq.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/IFQ/src/ifq.sv
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module ifq
+
+Top level modules:
+	ifq
 
 } {} {}} C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/cdb_if.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/frfdm/Documents/MDI/Repositories/superescalar/common/cdb_if.sv
 Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023

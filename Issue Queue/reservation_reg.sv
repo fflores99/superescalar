@@ -47,7 +47,7 @@ generate
         PC_REG
         (
             .clk(clk),
-            .en(we | updt_cmn_block),
+            .en(we & updt_cmn_block),
             .rst(rst),
             .DATA_IN(pc),
             .DATA_OUT(pc_out)
@@ -65,7 +65,7 @@ generate
         IMM_REG
         (
             .clk(clk),
-            .en(we | updt_cmn_block),
+            .en(we & updt_cmn_block),
             .rst(rst),
             .DATA_IN(imm),
             .DATA_OUT(imm_out)
@@ -76,13 +76,13 @@ endgenerate
 
 /*RS1 register*/
 reg_param #(
-	.LENGTH(32),
-	.RESET_VALUE(32'd0)
+	.LENGTH(33),
+	.RESET_VALUE(33'd0)
 )
 RS1_REG
 (
 	.clk(clk),
-	.en(we | updt_rs1),
+	.en(we & updt_rs1),
 	.rst(rst),
 	.DATA_IN({rs1_data_to_reg,
             rs1_data_valid_to_reg}),
@@ -92,13 +92,13 @@ RS1_REG
 
 /*RS2 register*/
 reg_param #(
-	.LENGTH(32),
-	.RESET_VALUE(32'd0)
+	.LENGTH(33),
+	.RESET_VALUE(33'd0)
 )
 RS2_REG
 (
 	.clk(clk),
-	.en(we | updt_rs2),
+	.en(we & updt_rs2),
 	.rst(rst),
 	.DATA_IN({rs2_data_to_reg,
             rs2_data_valid_to_reg}),
@@ -114,7 +114,7 @@ reg_param #(
 CMN_REG
 (
 	.clk(clk),
-	.en(we | updt_cmn_block),
+	.en(we & updt_cmn_block),
 	.rst(rst),
 	.DATA_IN({queue_bus_in.funct3,
             queue_bus_in.funct7,

@@ -6,7 +6,7 @@ interface queue_cmn_bus();
     logic [5:0] rs2_tag;
     logic rs2_data_valid;
     logic [6:0] rd_token;
-    logic [6:0] opcode,
-    logic [6:0] funct7,
+    logic [6:0] opcode;
+    logic [6:0] funct7;
     logic [2:0] funct3;
 endinterface /*102 bits*/
